@@ -197,7 +197,7 @@
 	_output_on = TRUE
 	_fully_charged = TRUE
 
-/obj/item/paper/verne
+/obj/item/weapon/paper/verne
 	name = "power usage"
 	info = "Verne Pilots and Engineers, remember to turn off the thrusters when you're done with maneuvers.\
 	<BR>Power usage settles at 137 kW with them off, just under the ICRER-2 150 kW standard operating range.\
@@ -207,7 +207,7 @@
 	<BR>If it explodes, you'll totally destroy the aft Engineering Stack, stranding us. \
 	<BR><b>Your follow up to this matter is required and appreciated.</b>"
 
-/obj/item/paper/verne/manifest
+/obj/item/weapon/paper/verne/manifest
 	name = "crew manifest"
 	info = "<center>\<b>SRV Verne</b><br>\
 			Crew roster</center><br>\
@@ -247,7 +247,7 @@
 			\[*]Survey Team Cyrenica, B2 Shift: 2 Students, 2 Employees.\
 			\[/list]"
 
-/obj/item/paper/verne/briefing
+/obj/item/weapon/paper/verne/briefing
 	name = "Survey Team Cyrenica briefing"
 	info = "Good waking, Survey Team Cyrenica.<BR>\
 		Dr. Schoonhoven and I have been negotiating the routing we intended to take the SRV Verne for this expedition.<BR>\
