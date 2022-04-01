@@ -60,7 +60,7 @@
 	region = ACCESS_REGION_NONE
 
 /obj/item/card/id/verne
-	access = list(access_verne)
+	req_access = list(access_verne)
 
 /obj/machinery/alarm/verne
 	req_access = list(access_verne)
