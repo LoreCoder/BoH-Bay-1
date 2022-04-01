@@ -67,7 +67,7 @@
 
 /obj/machinery/power/apc/verne
 	req_access = list(access_verne)
-	cell_type = /obj/item/cell/hyper
+	cell_type = /obj/item/weapon/cell/hyper
 
 /obj/machinery/power/supermatter/randomsample
 	name = "experimental supermatter sample"
