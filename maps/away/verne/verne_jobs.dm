@@ -83,17 +83,17 @@
 	name = VERNE_OUTFIT_JOB_NAME("Pilot")
 	uniform = /obj/item/clothing/under/suit_jacket/navy
 	shoes = /obj/item/clothing/shoes/dress/caretakershoes
-	belt = /obj/item/storage/belt/holster/general
-	r_pocket = /obj/item/gun/energy/gun/small
-	l_pocket = /obj/item/crowbar/prybar
+	belt = /obj/item/weapon/storage/belt/holster/general
+	r_pocket = /obj/item/weapon/gun/energy/gun/small
+	l_pocket = /obj/item/weapon/crowbar/prybar
 
 /decl/hierarchy/outfit/job/verne/engineer
 	name = VERNE_OUTFIT_JOB_NAME("Engineer")
 	uniform = /obj/item/clothing/under/rank/engineer
 	shoes = /obj/item/clothing/shoes/workboots
-	belt = /obj/item/storage/belt/utility/full
+	belt = /obj/item/weapon/storage/belt/utility/full
 	r_pocket = /obj/item/device/radio/map_preset/verne
-	l_pocket = /obj/item/crowbar/prybar
+	l_pocket = /obj/item/weapon/crowbar/prybar
 
 /decl/hierarchy/outfit/job/verne/engineer/New()
 	..()
