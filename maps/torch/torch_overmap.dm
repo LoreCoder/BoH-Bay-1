@@ -15,6 +15,7 @@
 
 		"Skrellian Scout" = list("nav_skrellscoutsh_dock", "nav_skrellscoutsh_altdock"),
 		"Rescue" = list("nav_ert_dock"),
+		"SRV Venerable Catfish" = list("nav_verne_5"),
 		"IPV Rawl" = list("nav_hangar_rawlship_torch","nav_hangar_rawlship_torchdock"),
 		"Trichoptera" = list("nav_ascentshipone_dock", "nav_ascentshipone_altdock"),
 		"Lepidoptera" = list("nav_ascentshiptwo_dock"),
@@ -71,6 +72,7 @@
 		"nav_merc_hanger",
 		"nav_ninja_hanger",
 		"nav_skipjack_hanger",
+		"nav_verne_5",
 		"nav_ert_hanger"
 	)
 
