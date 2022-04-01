@@ -177,8 +177,8 @@
 
 /obj/machinery/power/smes/buildable/preset/verne
 	uncreated_component_parts = list(
-		/obj/item/stock_parts/smes_coil/super_io = 2,
-		/obj/item/stock_parts/smes_coil/super_capacity = 2,
+		/datum/design/item/smes_coil/super_capacity = 2,
+		/datum/design/item/smes_coil/super_io = 2,
 	)
 	_input_maxed = TRUE
 	_output_maxed = TRUE
@@ -188,8 +188,8 @@
 
 /obj/machinery/power/smes/buildable/preset/verne/shuttle
 	uncreated_component_parts = list(
-		/obj/item/stock_parts/smes_coil/super_io = 1,
-		/obj/item/stock_parts/smes_coil/super_capacity = 1,
+		/datum/design/item/smes_coil/super_capacity = 1,
+		/datum/design/item/smes_coil/super_io = 1,
 	)
 	_input_maxed = TRUE
 	_output_maxed = TRUE
