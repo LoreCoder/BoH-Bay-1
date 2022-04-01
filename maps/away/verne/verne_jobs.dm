@@ -97,9 +97,9 @@
 
 /decl/hierarchy/outfit/job/verne/engineer/New()
 	..()
-	backpack_overrides[/decl/backpack_outfit/backpack] = /obj/item/storage/backpack/industrial
-	backpack_overrides[/decl/backpack_outfit/satchel] = /obj/item/storage/backpack/satchel/eng
-	backpack_overrides[/decl/backpack_outfit/messenger_bag] = /obj/item/storage/backpack/messenger/engi
+	backpack_overrides[/decl/backpack_outfit/backpack] = /obj/item/weapon/storage/backpack/industrial
+	backpack_overrides[/decl/backpack_outfit/satchel] = /obj/item/weapon/storage/backpack/satchel/eng
+	backpack_overrides[/decl/backpack_outfit/messenger_bag] = /obj/item/weapon/storage/backpack/messenger/engi
 
 /decl/hierarchy/outfit/job/verne/researcher
 	name = VERNE_OUTFIT_JOB_NAME("Undergraduate Xenoscience Researcher")
