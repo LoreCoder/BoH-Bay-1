@@ -36,7 +36,7 @@
 	id = "awaysite_verne"
 	description = "Active CTI research ship"
 	suffixes = list("verne/verne-1.dmm", "verne/verne-2.dmm", "verne/verne-3.dmm")
-	spawn_weight = 0.33
+	cost = 2
 	area_usage_test_exempted_root_areas = list(/area/verne)
 	shuttles_to_initialise = list(
 		/datum/shuttle/autodock/overmap/verne,
