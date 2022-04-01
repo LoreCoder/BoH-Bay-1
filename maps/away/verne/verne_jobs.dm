@@ -76,7 +76,7 @@
 	hierarchy_type = /decl/hierarchy/outfit/job/verne
 	pda_type = null
 	pda_slot = null
-	id_types = list(/obj/item/card/id/verne)
+	id_type = list(/obj/item/card/id/verne)
 	l_ear = /obj/item/device/radio/headset
 
 /decl/hierarchy/outfit/job/verne/pilot
