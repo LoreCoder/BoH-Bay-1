@@ -582,6 +582,11 @@
 	name = "box of sodas"
 	desc = "A box full of soda cans."
 	startswith = list(/obj/item/weapon/reagent_containers/food/drinks/cans/cola = 7)
+	
+/obj/item/weapon/storage/box/cola/beastenergy
+	name = "box of beast energy"
+	desc = "A box full of beast energy cans."
+	startswith = list(/obj/item/weapon/reagent_containers/food/drinks/cans/beastenergy = 7)
 
 /obj/item/weapon/storage/box/water
 	name = "box of water bottles"
