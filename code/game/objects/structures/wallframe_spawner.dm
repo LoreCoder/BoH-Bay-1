@@ -116,15 +116,10 @@
 	icon_state = "r-wingrille"
 	frame_path = /obj/structure/wall_frame
 
-/obj/effect/wallframe_spawn/reinforced/hull/verne
-	name = "reinforced verne hull wall frame window spawner"
-	frame_path = /obj/structure/wall_frame/hull/verne
-
 /obj/effect/wallframe_spawn/phoron
 	name = "phoron wall frame window spawner"
 	icon_state = "p-wingrille"
 	win_path = /obj/structure/window/phoronbasic/full
-
 
 /obj/effect/wallframe_spawn/reinforced_phoron
 	name = "reinforced phoron wall frame window spawner"
