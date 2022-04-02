@@ -28,4 +28,4 @@
 
 /obj/item/device/radio/headset/map_preset/verne
 	preset_name = "Verne"
-	encryption_key = /obj/item/device/encryptionkey/map_preset/verne
+	ks1type = /obj/item/device/encryptionkey/map_preset/verne
