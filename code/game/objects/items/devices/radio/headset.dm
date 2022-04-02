@@ -77,11 +77,6 @@
 		var/name_lower = lowertext(preset_name)
 		name = "[name_lower] radio headset"
 		ks1type = encryption_key
-		default_frequency = assign_away_freq(preset_name)
-		if (use_common)
-			frequency = PUB_FREQ
-		else
-			frequency = default_frequency
 	. = ..()
 	
 /obj/item/device/radio/headset/syndicate
