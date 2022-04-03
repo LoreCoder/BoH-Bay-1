@@ -1,22 +1,5 @@
 // ### Preset machines  ###
 
-/obj/machinery/telecomms/hub/map_preset
-	var/preset_name
-
-/obj/machinery/telecomms/hub/map_preset/Initialize()
-	if (preset_name)
-		var/name_lower = replacetext(lowertext(preset_name), " ", "_")
-		id = "[preset_name] Hub"
-		network = "tcomm_[name_lower]"
-		autolinkers = list(
-			"[name_lower]_broadcaster",
-			"[name_lower]_hub",
-			"[name_lower]_receiver",
-			"[name_lower]_relay",
-			"[name_lower]_server"
-		)
-	. = ..()
-
 //Relay
 
 /obj/machinery/telecomms/relay/preset
