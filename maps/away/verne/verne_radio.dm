@@ -1,31 +1,24 @@
-/obj/machinery/telecomms/hub/map_preset/verne
-	preset_name = "Verne"
+/obj/item/device/radio/headset/verne
+	name = "CTI headset"
+	icon_state = "srv_headset"
+	ks1type = /obj/item/device/encryptionkey/verne
 
-/obj/machinery/telecomms/receiver/map_preset/verne
-	preset_name = "Verne"
+/obj/item/device/radio/headset/verne/Initialize()
+	. = ..()
+	set_frequency(VERNE_FREQ)	//Not going to be random or just set to the common frequency, but can be set later.
 
-/obj/machinery/telecomms/bus/map_preset/verne
-	preset_name = "Verne"
+/obj/item/device/encryptionkey/verne
+	name = "Verne radio encryption key"
+	icon_state = "medsci_cypherkey"
+	channels = list("Verne" = 1)
 
-/obj/machinery/telecomms/processor/map_preset/verne
-	preset_name = "Verne"
 
-/obj/machinery/telecomms/server/map_preset/verne
-	preset_name = "Verne"
-	preset_color = COMMS_COLOR_VERNE
+//This is the telecomms server we're using on the old-radio version. It is prone to a very annoying bug where it shuts itself off. I think you can fix it by reconstructing it or by an apc reset? dunno. old code.
+/obj/item/weapon/stock_parts/circuitboard/telecomms/allinone/verne
+	build_path = /obj/machinery/telecomms/allinone/verne
 
-/obj/machinery/telecomms/broadcaster/map_preset/verne
-	preset_name = "Verne"
-
-/obj/item/device/radio/map_preset/verne
-	preset_name = "Verne"
-
-/obj/item/device/radio/intercom/map_preset/verne
-	preset_name = "Verne"
-
-/obj/item/device/encryptionkey/map_preset/verne
-	preset_name = "Verne"
-
-/obj/item/device/radio/headset/map_preset/verne
-	preset_name = "Verne"
-	ks1type = /obj/item/device/encryptionkey/map_preset/verne
+/obj/machinery/telecomms/allinone/verne
+	listening_freqs = list(VERNE_FREQ)
+	channel_color = COMMS_COLOR_EXPLORER
+	channel_name = "Verne"
+	circuitboard = /obj/item/weapon/stock_parts/circuitboard/telecomms/allinone/verne
