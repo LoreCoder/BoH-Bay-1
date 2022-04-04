@@ -101,7 +101,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/device/radio/intercom/map_preset/verne{
+/obj/item/device/radio/intercom/department/verne{
 	dir = 1;
 	pixel_y = -28
 	},
@@ -491,7 +491,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 1;
 	id_tag = "verne_airlock_sm_pump"
 	},
@@ -628,7 +628,7 @@
 /area/verne/engineering/thrustgen)
 "cZ" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull/verne,
+/obj/effect/wallframe_spawn/reinforced/hull,
 /turf/simulated/floor/plating,
 /area/verne/engineering)
 "dc" = (
@@ -944,7 +944,7 @@
 /obj/machinery/atmospherics/omni/mixer{
 	tag_north = 2;
 	tag_south = 1;
-	tag_south_con = 0/5;
+	tag_south_con = 0.5;
 	tag_west = 1;
 	tag_west_con = 0.5
 	},
