@@ -11,10 +11,9 @@
 	fore_dir = NORTH
 	vessel_size = SHIP_SIZE_SMALL
 	moving_state = "ship_moving"
-	max_speed = 1/(2 SECONDS) //same stats as charon
+	max_speed = 1/(2 SECONDS) 
 	burn_delay = 1 SECONDS
 	vessel_mass = 5000
-	skill_needed = SKILL_BASIC
 
 /datum/shuttle/autodock/overmap/verne
 	name = "SRV Venerable Catfish"
