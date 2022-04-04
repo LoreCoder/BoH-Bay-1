@@ -77,7 +77,7 @@
 	pda_type = null
 	pda_slot = null
 	id_type = list(/obj/item/card/id/verne)
-	l_ear = /obj/item/device/radio/headset
+	l_ear = /obj/item/device/radio/headset/verne
 
 /decl/hierarchy/outfit/job/verne/pilot
 	name = VERNE_OUTFIT_JOB_NAME("Pilot")
