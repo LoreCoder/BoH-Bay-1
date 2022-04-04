@@ -7,6 +7,10 @@
 /obj/item/device/radio/headset/verne/Initialize()
 	. = ..()
 	set_frequency(SCI_FREQ)	//Not going to be random or just set to the common frequency, but can be set later.
+	
+/obj/item/device/radio/intercom/department/verne
+	name = "intercom (Verne)"
+	frequency = SCI_FREQ
 
 /obj/item/device/encryptionkey/verne
 	name = "Verne radio encryption key"
