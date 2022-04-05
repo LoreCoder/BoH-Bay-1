@@ -24,6 +24,6 @@
 
 /obj/machinery/telecomms/allinone/verne
 	listening_freqs = list(SCI_FREQ)
-	channel_color = COMMS_COLOR_SCIENCE
+	channel_color = COMMS_COLOR_VERNE
 	channel_name = "Verne"
 	circuitboard = /obj/item/weapon/stock_parts/circuitboard/telecomms/allinone/verne
