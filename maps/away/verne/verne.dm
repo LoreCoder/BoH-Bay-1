@@ -60,8 +60,10 @@
 	desc = "Verne Access"
 	region = ACCESS_REGION_NONE
 
-/obj/item/card/id/verne
-	req_access = list(access_verne)
+/obj/item/weapon/card/id/verne
+	color = COLOR_GRAY40
+	detail_color = "#7331c4"
+	access = list(access_verne)
 
 /obj/machinery/alarm/verne
 	req_access = list(access_verne)
