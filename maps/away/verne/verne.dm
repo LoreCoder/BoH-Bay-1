@@ -62,7 +62,7 @@
 
 /obj/item/weapon/card/id/verne
 	color = COLOR_GRAY40
-	detail_color = "#7331c4"
+	detail_color = "#2d214e"
 	access = list(access_verne)
 
 /obj/machinery/alarm/verne
