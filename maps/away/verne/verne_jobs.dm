@@ -74,9 +74,9 @@
 #define VERNE_OUTFIT_JOB_NAME(job_name) ("CTI Research Vessel - Job - " + job_name)
 /decl/hierarchy/outfit/job/verne
 	hierarchy_type = /decl/hierarchy/outfit/job/verne
-	pda_type = null
-	pda_slot = null
-	id_type = list(/obj/item/weapon/card/id/verne)
+	pda_type = /obj/item/modular_computer/pda
+	pda_slot = slot_l_store
+	id_type = /obj/item/weapon/card/id/verne
 	l_ear = /obj/item/device/radio/headset/verne
 
 /decl/hierarchy/outfit/job/verne/pilot
